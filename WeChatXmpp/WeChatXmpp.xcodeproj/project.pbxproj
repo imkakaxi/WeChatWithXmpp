@@ -195,6 +195,21 @@
 		CB050860199DDB690010E549 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB05083D199DDB690010E549 /* libopencore-amrnb.a */; };
 		CB050861199DDB690010E549 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB05083E199DDB690010E549 /* libopencore-amrwb.a */; };
 		CB050862199DDB690010E549 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB050846199DDB690010E549 /* VoiceConverter.mm */; };
+		CB05086A199DE4FE0010E549 /* MessageLIstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB050869199DE4FE0010E549 /* MessageLIstViewController.m */; };
+		CB05086D199DE5150010E549 /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB05086C199DE5150010E549 /* FriendListViewController.m */; };
+		CB050870199DE5390010E549 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB05086F199DE5390010E549 /* DiscoverViewController.m */; };
+		CB050873199DE54F0010E549 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB050872199DE54F0010E549 /* MineViewController.m */; };
+		CB050875199DE8000010E549 /* tabbarBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050874199DE8000010E549 /* tabbarBkg@2x.png */; };
+		CB050887199DE8870010E549 /* tabbar_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050876199DE8870010E549 /* tabbar_badge@2x.png */; };
+		CB050888199DE8870010E549 /* tabbar_contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050877199DE8870010E549 /* tabbar_contacts@2x.png */; };
+		CB05088A199DE8870010E549 /* tabbar_contactsHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050879199DE8870010E549 /* tabbar_contactsHL@2x.png */; };
+		CB05088C199DE8870010E549 /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB05087B199DE8870010E549 /* tabbar_discover@2x.png */; };
+		CB05088E199DE8870010E549 /* tabbar_discoverHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB05087D199DE8870010E549 /* tabbar_discoverHL@2x.png */; };
+		CB050890199DE8870010E549 /* tabbar_mainframe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB05087F199DE8870010E549 /* tabbar_mainframe@2x.png */; };
+		CB050892199DE8870010E549 /* tabbar_mainframeHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050881199DE8870010E549 /* tabbar_mainframeHL@2x.png */; };
+		CB050894199DE8870010E549 /* tabbar_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050883199DE8870010E549 /* tabbar_me@2x.png */; };
+		CB050896199DE8870010E549 /* tabbar_meHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050885199DE8870010E549 /* tabbar_meHL@2x.png */; };
+		CB05089B199DE9340010E549 /* LYHBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB05089A199DE9340010E549 /* LYHBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -544,6 +559,26 @@
 		CB050844199DDB690010E549 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
 		CB050845199DDB690010E549 /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
 		CB050846199DDB690010E549 /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
+		CB050868199DE4FE0010E549 /* MessageLIstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageLIstViewController.h; sourceTree = "<group>"; };
+		CB050869199DE4FE0010E549 /* MessageLIstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageLIstViewController.m; sourceTree = "<group>"; };
+		CB05086B199DE5150010E549 /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		CB05086C199DE5150010E549 /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		CB05086E199DE5390010E549 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		CB05086F199DE5390010E549 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		CB050871199DE54F0010E549 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		CB050872199DE54F0010E549 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		CB050874199DE8000010E549 /* tabbarBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarBkg@2x.png"; sourceTree = "<group>"; };
+		CB050876199DE8870010E549 /* tabbar_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_badge@2x.png"; sourceTree = "<group>"; };
+		CB050877199DE8870010E549 /* tabbar_contacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@2x.png"; sourceTree = "<group>"; };
+		CB050879199DE8870010E549 /* tabbar_contactsHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contactsHL@2x.png"; sourceTree = "<group>"; };
+		CB05087B199DE8870010E549 /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		CB05087D199DE8870010E549 /* tabbar_discoverHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discoverHL@2x.png"; sourceTree = "<group>"; };
+		CB05087F199DE8870010E549 /* tabbar_mainframe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@2x.png"; sourceTree = "<group>"; };
+		CB050881199DE8870010E549 /* tabbar_mainframeHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframeHL@2x.png"; sourceTree = "<group>"; };
+		CB050883199DE8870010E549 /* tabbar_me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_me@2x.png"; sourceTree = "<group>"; };
+		CB050885199DE8870010E549 /* tabbar_meHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x.png"; sourceTree = "<group>"; };
+		CB050899199DE9340010E549 /* LYHBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHBarButtonItem.h; sourceTree = "<group>"; };
+		CB05089A199DE9340010E549 /* LYHBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHBarButtonItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -673,6 +708,16 @@
 		CB0505C8199DA2B30010E549 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CB050876199DE8870010E549 /* tabbar_badge@2x.png */,
+				CB050877199DE8870010E549 /* tabbar_contacts@2x.png */,
+				CB050879199DE8870010E549 /* tabbar_contactsHL@2x.png */,
+				CB05087B199DE8870010E549 /* tabbar_discover@2x.png */,
+				CB05087D199DE8870010E549 /* tabbar_discoverHL@2x.png */,
+				CB05087F199DE8870010E549 /* tabbar_mainframe@2x.png */,
+				CB050881199DE8870010E549 /* tabbar_mainframeHL@2x.png */,
+				CB050883199DE8870010E549 /* tabbar_me@2x.png */,
+				CB050885199DE8870010E549 /* tabbar_meHL@2x.png */,
+				CB050874199DE8000010E549 /* tabbarBkg@2x.png */,
 				CB0505E9199DA6D90010E549 /* ReceiverTextNodeBkg@2x.png */,
 				CB0505EA199DA6D90010E549 /* ReceiverTextNodeBkgHL@2x.png */,
 				CB0505EB199DA6D90010E549 /* ReceiverVoiceNodeBack@2x.png */,
@@ -703,6 +748,8 @@
 		CB0505F7199DB3B80010E549 /* 微信视图控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				CB050868199DE4FE0010E549 /* MessageLIstViewController.h */,
+				CB050869199DE4FE0010E549 /* MessageLIstViewController.m */,
 			);
 			name = "微信视图控制器";
 			sourceTree = "<group>";
@@ -710,6 +757,8 @@
 		CB0505F8199DB3CB0010E549 /* 通讯录视图控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				CB05086B199DE5150010E549 /* FriendListViewController.h */,
+				CB05086C199DE5150010E549 /* FriendListViewController.m */,
 			);
 			name = "通讯录视图控制器";
 			sourceTree = "<group>";
@@ -717,6 +766,8 @@
 		CB0505FA199DB3E20010E549 /* 发现视图控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				CB05086E199DE5390010E549 /* DiscoverViewController.h */,
+				CB05086F199DE5390010E549 /* DiscoverViewController.m */,
 			);
 			name = "发现视图控制器";
 			sourceTree = "<group>";
@@ -724,6 +775,8 @@
 		CB0505FB199DB3EE0010E549 /* 我视图控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				CB050871199DE54F0010E549 /* MineViewController.h */,
+				CB050872199DE54F0010E549 /* MineViewController.m */,
 			);
 			name = "我视图控制器";
 			sourceTree = "<group>";
@@ -731,6 +784,7 @@
 		CB0505FC199DB4100010E549 /* 自定义类 */ = {
 			isa = PBXGroup;
 			children = (
+				CB050898199DE9190010E549 /* LYHBarButtonItem */,
 				CB0505FD199DB4220010E549 /* LYHNavigationController */,
 			);
 			name = "自定义类";
@@ -1580,6 +1634,15 @@
 			path = "opencore-amrwb";
 			sourceTree = "<group>";
 		};
+		CB050898199DE9190010E549 /* LYHBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				CB050899199DE9340010E549 /* LYHBarButtonItem.h */,
+				CB05089A199DE9340010E549 /* LYHBarButtonItem.m */,
+			);
+			name = LYHBarButtonItem;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1658,6 +1721,7 @@
 			files = (
 				CB05074B199DD7E20010E549 /* copying.txt in Resources */,
 				CB0505E5199DA6820010E549 /* SenderTextNodeBkgHL@2x.png in Resources */,
+				CB050894199DE8870010E549 /* tabbar_me@2x.png in Resources */,
 				CB0505F1199DA6D90010E549 /* ReceiverVoiceNodeBkg@2x.png in Resources */,
 				CB050855199DDB690010E549 /* recorder_trash_can1.png in Resources */,
 				CB0505EF199DA6D90010E549 /* ReceiverTextNodeBkgHL@2x.png in Resources */,
@@ -1667,11 +1731,15 @@
 				CB0505E8199DA6820010E549 /* SenderVoiceNodeBkgHL@2x.png in Resources */,
 				CB050857199DDB690010E549 /* recorder_trash_can2.png in Resources */,
 				CB0505E7199DA6820010E549 /* SenderVoiceNodeBkg@2x.png in Resources */,
+				CB050890199DE8870010E549 /* tabbar_mainframe@2x.png in Resources */,
+				CB05088C199DE8870010E549 /* tabbar_discover@2x.png in Resources */,
 				CB0505A1199D9C0C0010E549 /* InfoPlist.strings in Resources */,
 				CB0505F0199DA6D90010E549 /* ReceiverVoiceNodeBack@2x.png in Resources */,
 				CB0505DD199DA5830010E549 /* Icon@2x.png in Resources */,
+				CB050887199DE8870010E549 /* tabbar_badge@2x.png in Resources */,
 				CB0505A9199D9C0C0010E549 /* Images.xcassets in Resources */,
 				CB0505D9199DA5830010E549 /* Icon-72@2x.png in Resources */,
+				CB050888199DE8870010E549 /* tabbar_contacts@2x.png in Resources */,
 				CB050854199DDB690010E549 /* recorder_trash_can0@2x.png in Resources */,
 				CB0505E6199DA6820010E549 /* SenderVoiceNodeBack@2x.png in Resources */,
 				CB050856199DDB690010E549 /* recorder_trash_can1@2x.png in Resources */,
@@ -1686,13 +1754,18 @@
 				CB05085B199DDB690010E549 /* speaker_2.png in Resources */,
 				CB0507BC199DD7E20010E549 /* build-libidn.sh in Resources */,
 				CB0505DE199DA5830010E549 /* Icon120@2x.png in Resources */,
+				CB05088E199DE8870010E549 /* tabbar_discoverHL@2x.png in Resources */,
 				CB0505D8199DA5830010E549 /* Icon-72.png in Resources */,
 				CB0505F6199DB0730010E549 /* topbarbg@2x.png in Resources */,
+				CB050892199DE8870010E549 /* tabbar_mainframeHL@2x.png in Resources */,
 				CB0505CE199DA2C90010E549 /* Default.png in Resources */,
 				CB050858199DDB690010E549 /* recorder_trash_can2@2x.png in Resources */,
+				CB050896199DE8870010E549 /* tabbar_meHL@2x.png in Resources */,
 				CB0505DC199DA5830010E549 /* Icon.png in Resources */,
 				CB0505DB199DA5830010E549 /* Icon-76@2x.png in Resources */,
+				CB05088A199DE8870010E549 /* tabbar_contactsHL@2x.png in Resources */,
 				CB0505DA199DA5830010E549 /* Icon-76.png in Resources */,
+				CB050875199DE8000010E549 /* tabbarBkg@2x.png in Resources */,
 				CB0507B7199DD7E20010E549 /* README.txt in Resources */,
 				CB0505EE199DA6D90010E549 /* ReceiverTextNodeBkg@2x.png in Resources */,
 			);
@@ -1716,6 +1789,7 @@
 				CB050777199DD7E20010E549 /* XMPPvCard.xcdatamodeld in Sources */,
 				CB0507AB199DD7E20010E549 /* LibIDN.m in Sources */,
 				CB050790199DD7E20010E549 /* XMPPCapabilitiesCoreDataStorage.m in Sources */,
+				CB05086D199DE5150010E549 /* FriendListViewController.m in Sources */,
 				CB050750199DD7E20010E549 /* XMPPModule.m in Sources */,
 				CB0507AD199DD7E20010E549 /* XMPPIDTracker.m in Sources */,
 				CB050757199DD7E20010E549 /* XMPPProcessOne.m in Sources */,
@@ -1777,6 +1851,7 @@
 				CB0505C7199D9C900010E549 /* LYHRootViewController.m in Sources */,
 				CB050783199DD7E20010E549 /* XMPPvCardTempTel.m in Sources */,
 				CB0507BB199DD7E20010E549 /* DDXMLNode.m in Sources */,
+				CB05086A199DE4FE0010E549 /* MessageLIstViewController.m in Sources */,
 				CB0505A3199D9C0C0010E549 /* main.m in Sources */,
 				CB05075B199DD7E20010E549 /* XMPPRoster.xcdatamodel in Sources */,
 				CB050751199DD7E20010E549 /* XMPPParser.m in Sources */,
@@ -1784,6 +1859,7 @@
 				CB050747199DD7E20010E549 /* XMPPXFacebookPlatformAuthentication.m in Sources */,
 				CB050768199DD7E20010E549 /* XMPPPrivacy.m in Sources */,
 				CB050778199DD7E20010E549 /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
+				CB050870199DE5390010E549 /* DiscoverViewController.m in Sources */,
 				CB050798199DD7E20010E549 /* XMPPMessageArchiving.m in Sources */,
 				CB050852199DDB690010E549 /* CustomWindow.m in Sources */,
 				CB050769199DD7E20010E549 /* XMPPRoom.xcdatamodeld in Sources */,
@@ -1810,6 +1886,7 @@
 				CB0507B4199DD7E20010E549 /* DDTTYLogger.m in Sources */,
 				CB05078C199DD7E20010E549 /* XMPPDateTimeProfiles.m in Sources */,
 				CB05078A199DD7E20010E549 /* XMPPMessage+XEP_0066.m in Sources */,
+				CB05089B199DE9340010E549 /* LYHBarButtonItem.m in Sources */,
 				CB05074D199DD7E20010E549 /* XMPPIQ.m in Sources */,
 				CB050786199DD7E20010E549 /* XMPPIQ+XEP_0060.m in Sources */,
 				CB050744199DD7E20010E549 /* XMPPDeprecatedPlainAuthentication.m in Sources */,
@@ -1830,6 +1907,7 @@
 				CB05076B199DD7E20010E549 /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
 				CB050862199DDB690010E549 /* VoiceConverter.mm in Sources */,
 				CB05078D199DD7E20010E549 /* XMPPMessage+XEP_0085.m in Sources */,
+				CB050873199DE54F0010E549 /* MineViewController.m in Sources */,
 				CB05077A199DD7E20010E549 /* XMPPvCardCoreDataStorageObject.m in Sources */,
 				CB050743199DD7E20010E549 /* XMPPDeprecatedDigestAuthentication.m in Sources */,
 				CB0507A6199DD7E20010E549 /* NSXMLElement+XEP_0297.m in Sources */,
