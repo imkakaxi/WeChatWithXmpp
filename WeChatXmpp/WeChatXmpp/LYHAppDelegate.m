@@ -8,23 +8,14 @@
 
 #import "LYHAppDelegate.h"
 #import "LYHRootViewController.h"
+#import "LYHNavigationController.h"
 @implementation LYHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     LYHRootViewController * rootView = [[LYHRootViewController alloc]init];
-    UINavigationController * navCtrl = [[UINavigationController alloc]initWithRootViewController:rootView];
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0) {
-       [navCtrl.navigationBar setBackgroundImage:[UIImage imageNamed:@"topbarbg_ios7"] forBarMetrics:UIBarMetricsDefault];
-    }
-    else
-    {
-        [navCtrl.navigationBar setBackgroundImage:[UIImage imageNamed:@"topbarbg"] forBarMetrics:UIBarMetricsDefault];
-    }
-#endif
-    
+    LYHNavigationController * navCtrl = [[LYHNavigationController alloc]initWithRootViewController:rootView];
     self.window.rootViewController = navCtrl;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
