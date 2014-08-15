@@ -41,6 +41,8 @@
 		CB0505F0199DA6D90010E549 /* ReceiverVoiceNodeBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB0505EB199DA6D90010E549 /* ReceiverVoiceNodeBack@2x.png */; };
 		CB0505F1199DA6D90010E549 /* ReceiverVoiceNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB0505EC199DA6D90010E549 /* ReceiverVoiceNodeBkg@2x.png */; };
 		CB0505F2199DA6D90010E549 /* ReceiverVoiceNodeBkgHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB0505ED199DA6D90010E549 /* ReceiverVoiceNodeBkgHL@2x.png */; };
+		CB0505F5199DB0730010E549 /* topbarbg_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB0505F3199DB0730010E549 /* topbarbg_ios7@2x.png */; };
+		CB0505F6199DB0730010E549 /* topbarbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB0505F4199DB0730010E549 /* topbarbg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,8 @@
 		CB0505EB199DA6D90010E549 /* ReceiverVoiceNodeBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBack@2x.png"; sourceTree = "<group>"; };
 		CB0505EC199DA6D90010E549 /* ReceiverVoiceNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBkg@2x.png"; sourceTree = "<group>"; };
 		CB0505ED199DA6D90010E549 /* ReceiverVoiceNodeBkgHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeBkgHL@2x.png"; sourceTree = "<group>"; };
+		CB0505F3199DB0730010E549 /* topbarbg_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topbarbg_ios7@2x.png"; sourceTree = "<group>"; };
+		CB0505F4199DB0730010E549 /* topbarbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topbarbg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +220,8 @@
 				CB0505CA199DA2C90010E549 /* Default.png */,
 				CB0505CB199DA2C90010E549 /* Default@2x.png */,
 				CB0505CC199DA2C90010E549 /* Default@2x~ipad.png */,
+				CB0505F3199DB0730010E549 /* topbarbg_ios7@2x.png */,
+				CB0505F4199DB0730010E549 /* topbarbg@2x.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 				CB0505E5199DA6820010E549 /* SenderTextNodeBkgHL@2x.png in Resources */,
 				CB0505F1199DA6D90010E549 /* ReceiverVoiceNodeBkg@2x.png in Resources */,
 				CB0505EF199DA6D90010E549 /* ReceiverTextNodeBkgHL@2x.png in Resources */,
+				CB0505F5199DB0730010E549 /* topbarbg_ios7@2x.png in Resources */,
 				CB0505F2199DA6D90010E549 /* ReceiverVoiceNodeBkgHL@2x.png in Resources */,
 				CB0505E8199DA6820010E549 /* SenderVoiceNodeBkgHL@2x.png in Resources */,
 				CB0505E7199DA6820010E549 /* SenderVoiceNodeBkg@2x.png in Resources */,
@@ -314,6 +321,7 @@
 				CB0505CD199DA2C90010E549 /* Default-568h@2x.png in Resources */,
 				CB0505DE199DA5830010E549 /* Icon120@2x.png in Resources */,
 				CB0505D8199DA5830010E549 /* Icon-72.png in Resources */,
+				CB0505F6199DB0730010E549 /* topbarbg@2x.png in Resources */,
 				CB0505CE199DA2C90010E549 /* Default.png in Resources */,
 				CB0505DC199DA5830010E549 /* Icon.png in Resources */,
 				CB0505DB199DA5830010E549 /* Icon-76@2x.png in Resources */,
@@ -461,6 +469,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeChatXmpp/WeChatXmpp-Prefix.pch";
 				INFOPLIST_FILE = "WeChatXmpp/WeChatXmpp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +483,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeChatXmpp/WeChatXmpp-Prefix.pch";
 				INFOPLIST_FILE = "WeChatXmpp/WeChatXmpp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
