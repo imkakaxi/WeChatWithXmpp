@@ -210,6 +210,12 @@
 		CB050894199DE8870010E549 /* tabbar_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050883199DE8870010E549 /* tabbar_me@2x.png */; };
 		CB050896199DE8870010E549 /* tabbar_meHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050885199DE8870010E549 /* tabbar_meHL@2x.png */; };
 		CB05089B199DE9340010E549 /* LYHBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB05089A199DE9340010E549 /* LYHBarButtonItem.m */; };
+		CB578D6B19A1A4A7000DBE12 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB578D6A19A1A4A7000DBE12 /* LoginViewController.m */; };
+		CB578D6E19A1A4BC000DBE12 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB578D6D19A1A4BC000DBE12 /* RegisterViewController.m */; };
+		CB578D7019A1A9DA000DBE12 /* Welcome_Login_LogoCH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB578D6F19A1A9DA000DBE12 /* Welcome_Login_LogoCH@2x.png */; };
+		CB578D7219A1A9E9000DBE12 /* Welcome_Login_BG@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB578D7119A1A9E9000DBE12 /* Welcome_Login_BG@2x.jpg */; };
+		CB578D7419A1B510000DBE12 /* LoginBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB578D7319A1B510000DBE12 /* LoginBackground@2x.png */; };
+		CB578D7619A1B5B9000DBE12 /* LoginGreenBigBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB578D7519A1B5B9000DBE12 /* LoginGreenBigBtn@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -579,6 +585,14 @@
 		CB050885199DE8870010E549 /* tabbar_meHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x.png"; sourceTree = "<group>"; };
 		CB050899199DE9340010E549 /* LYHBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHBarButtonItem.h; sourceTree = "<group>"; };
 		CB05089A199DE9340010E549 /* LYHBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHBarButtonItem.m; sourceTree = "<group>"; };
+		CB578D6919A1A4A7000DBE12 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CB578D6A19A1A4A7000DBE12 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CB578D6C19A1A4BC000DBE12 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		CB578D6D19A1A4BC000DBE12 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		CB578D6F19A1A9DA000DBE12 /* Welcome_Login_LogoCH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welcome_Login_LogoCH@2x.png"; sourceTree = "<group>"; };
+		CB578D7119A1A9E9000DBE12 /* Welcome_Login_BG@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Welcome_Login_BG@2x.jpg"; sourceTree = "<group>"; };
+		CB578D7319A1B510000DBE12 /* LoginBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LoginBackground@2x.png"; sourceTree = "<group>"; };
+		CB578D7519A1B5B9000DBE12 /* LoginGreenBigBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LoginGreenBigBtn@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -665,6 +679,7 @@
 				CB0505A6199D9C0C0010E549 /* LYHAppDelegate.m */,
 				CB0505C5199D9C900010E549 /* LYHRootViewController.h */,
 				CB0505C6199D9C900010E549 /* LYHRootViewController.m */,
+				CB578D6819A1A471000DBE12 /* 登录注册视图控制器 */,
 				CB0505FB199DB3EE0010E549 /* 我视图控制器 */,
 				CB0505FA199DB3E20010E549 /* 发现视图控制器 */,
 				CB0505F8199DB3CB0010E549 /* 通讯录视图控制器 */,
@@ -708,6 +723,10 @@
 		CB0505C8199DA2B30010E549 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CB578D7519A1B5B9000DBE12 /* LoginGreenBigBtn@2x.png */,
+				CB578D7319A1B510000DBE12 /* LoginBackground@2x.png */,
+				CB578D7119A1A9E9000DBE12 /* Welcome_Login_BG@2x.jpg */,
+				CB578D6F19A1A9DA000DBE12 /* Welcome_Login_LogoCH@2x.png */,
 				CB050876199DE8870010E549 /* tabbar_badge@2x.png */,
 				CB050877199DE8870010E549 /* tabbar_contacts@2x.png */,
 				CB050879199DE8870010E549 /* tabbar_contactsHL@2x.png */,
@@ -1643,6 +1662,17 @@
 			name = LYHBarButtonItem;
 			sourceTree = "<group>";
 		};
+		CB578D6819A1A471000DBE12 /* 登录注册视图控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				CB578D6919A1A4A7000DBE12 /* LoginViewController.h */,
+				CB578D6A19A1A4A7000DBE12 /* LoginViewController.m */,
+				CB578D6C19A1A4BC000DBE12 /* RegisterViewController.h */,
+				CB578D6D19A1A4BC000DBE12 /* RegisterViewController.m */,
+			);
+			name = "登录注册视图控制器";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1723,6 +1753,7 @@
 				CB0505E5199DA6820010E549 /* SenderTextNodeBkgHL@2x.png in Resources */,
 				CB050894199DE8870010E549 /* tabbar_me@2x.png in Resources */,
 				CB0505F1199DA6D90010E549 /* ReceiverVoiceNodeBkg@2x.png in Resources */,
+				CB578D7619A1B5B9000DBE12 /* LoginGreenBigBtn@2x.png in Resources */,
 				CB050855199DDB690010E549 /* recorder_trash_can1.png in Resources */,
 				CB0505EF199DA6D90010E549 /* ReceiverTextNodeBkgHL@2x.png in Resources */,
 				CB0505F5199DB0730010E549 /* topbarbg_ios7@2x.png in Resources */,
@@ -1735,6 +1766,7 @@
 				CB05088C199DE8870010E549 /* tabbar_discover@2x.png in Resources */,
 				CB0505A1199D9C0C0010E549 /* InfoPlist.strings in Resources */,
 				CB0505F0199DA6D90010E549 /* ReceiverVoiceNodeBack@2x.png in Resources */,
+				CB578D7419A1B510000DBE12 /* LoginBackground@2x.png in Resources */,
 				CB0505DD199DA5830010E549 /* Icon@2x.png in Resources */,
 				CB050887199DE8870010E549 /* tabbar_badge@2x.png in Resources */,
 				CB0505A9199D9C0C0010E549 /* Images.xcassets in Resources */,
@@ -1749,6 +1781,7 @@
 				CB0505CF199DA2C90010E549 /* Default@2x.png in Resources */,
 				CB0505E4199DA6820010E549 /* SenderTextNodeBkg@2x.png in Resources */,
 				CB050859199DDB690010E549 /* speaker_0.png in Resources */,
+				CB578D7219A1A9E9000DBE12 /* Welcome_Login_BG@2x.jpg in Resources */,
 				CB0505D0199DA2C90010E549 /* Default@2x~ipad.png in Resources */,
 				CB0505CD199DA2C90010E549 /* Default-568h@2x.png in Resources */,
 				CB05085B199DDB690010E549 /* speaker_2.png in Resources */,
@@ -1760,6 +1793,7 @@
 				CB050892199DE8870010E549 /* tabbar_mainframeHL@2x.png in Resources */,
 				CB0505CE199DA2C90010E549 /* Default.png in Resources */,
 				CB050858199DDB690010E549 /* recorder_trash_can2@2x.png in Resources */,
+				CB578D7019A1A9DA000DBE12 /* Welcome_Login_LogoCH@2x.png in Resources */,
 				CB050896199DE8870010E549 /* tabbar_meHL@2x.png in Resources */,
 				CB0505DC199DA5830010E549 /* Icon.png in Resources */,
 				CB0505DB199DA5830010E549 /* Icon-76@2x.png in Resources */,
@@ -1845,6 +1879,7 @@
 				CB0507B3199DD7E20010E549 /* DDLog.m in Sources */,
 				CB050780199DD7E20010E549 /* XMPPvCardTempEmail.m in Sources */,
 				CB050745199DD7E20010E549 /* XMPPDigestMD5Authentication.m in Sources */,
+				CB578D6B19A1A4A7000DBE12 /* LoginViewController.m in Sources */,
 				CB050766199DD7E20010E549 /* XMPPIQ+LastActivity.m in Sources */,
 				CB050772199DD7E20010E549 /* XMPPRoomMessageMemoryStorageObject.m in Sources */,
 				CB0507AA199DD7E20010E549 /* GCDMulticastDelegate.m in Sources */,
@@ -1888,6 +1923,7 @@
 				CB05078A199DD7E20010E549 /* XMPPMessage+XEP_0066.m in Sources */,
 				CB05089B199DE9340010E549 /* LYHBarButtonItem.m in Sources */,
 				CB05074D199DD7E20010E549 /* XMPPIQ.m in Sources */,
+				CB578D6E19A1A4BC000DBE12 /* RegisterViewController.m in Sources */,
 				CB050786199DD7E20010E549 /* XMPPIQ+XEP_0060.m in Sources */,
 				CB050744199DD7E20010E549 /* XMPPDeprecatedPlainAuthentication.m in Sources */,
 				CB05078E199DD7E20010E549 /* XMPPTransports.m in Sources */,
@@ -2138,6 +2174,7 @@
 				CB0505C1199D9C0C0010E549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB0505C2199D9C0C0010E549 /* Build configuration list for PBXNativeTarget "WeChatXmppTests" */ = {
 			isa = XCConfigurationList;
@@ -2146,6 +2183,7 @@
 				CB0505C4199D9C0C0010E549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
