@@ -65,7 +65,7 @@
     [self.view addSubview:self.mPasdText];
     
     UIButton * btnLogin = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    btnLogin.frame =CGRectMake(100, 360, 120, 50);
+    btnLogin.frame =CGRectMake(100, 360, 120, 40);
     [btnLogin setTitle:@"登录" forState:UIControlStateNormal];
     btnLogin.backgroundColor = [UIColor greenColor];
     //[btnLogin setBackgroundImage:[UIImage imageNamed:@"LoginGreenBigBtn"] forState:UIControlStateNormal];
