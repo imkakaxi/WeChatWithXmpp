@@ -16,14 +16,14 @@
 #import "LYHBarButtonItem.h"
 #import "LoginViewController.h"
 @implementation LYHAppDelegate
-@synthesize mTabbarCtrl;
+@synthesize mTabbarCtrl,mXmppClass;
 
 - (void)makeTabbarView
 {
     MessageLIstViewController * messageView = [[MessageLIstViewController alloc]init];
     LYHNavigationController * messageNavCtrl = [[LYHNavigationController alloc]initWithRootViewController:messageView];
     messageView.title = @"微信";
-    LYHBarButtonItem * messageBar = [[LYHBarButtonItem alloc]initWithTitle:@"更多" image:[UIImage imageNamed:@"tabbar_mainframe"] tag:0];
+    LYHBarButtonItem * messageBar = [[LYHBarButtonItem alloc]initWithTitle:@"微信" image:[UIImage imageNamed:@"tabbar_mainframe"] tag:0];
     messageBar.selectedImage = [UIImage imageNamed:@"tabbar_mainframeHL"];
     messageView.tabBarItem = messageBar;
     
@@ -66,6 +66,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    XmppClass * xmpp = [[XmppClass alloc]initWithDelegate:self];
+    self.mXmppClass = xmpp;
     [self makeTabbarView];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

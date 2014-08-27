@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "XmppClass.h"
 @interface LYHAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UITabBarController * mTabbarCtrl;
+@property (strong, nonatomic) XmppClass * mXmppClass;
 @end

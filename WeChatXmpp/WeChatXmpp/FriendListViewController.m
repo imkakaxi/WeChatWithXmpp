@@ -8,8 +8,8 @@
 
 #import "FriendListViewController.h"
 
-@interface FriendListViewController ()
-
+@interface FriendListViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (strong,nonatomic) NSMutableArray * mArrayData;
 @end
 
 @implementation FriendListViewController
@@ -26,9 +26,46 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    [self getData];
+}
+- (void)getData
+{
+    if (self.mArrayData.count > 0) {
+        [self initTableView];
+    }
 }
 
+- (void)initTableView
+{
+    UITableView * tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    [self.view addSubview:tableView];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60.0f;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.mArrayData.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString * strID = @"ID";
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:strID];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:strID];
+    }
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

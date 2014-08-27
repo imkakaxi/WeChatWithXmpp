@@ -85,11 +85,63 @@
     [self.view addSubview:btnLogin];
 }
 
+
+
 - (void)buttonClick:(UIButton *)sender
 {
+    if ([self allInformationReady]) {
+        [self connectToOpenFire];
+    }
     LYHAppDelegate * appDelegate = (LYHAppDelegate *)[UIApplication sharedApplication].delegate;
     appDelegate.window.rootViewController = appDelegate.mTabbarCtrl;
 }
+
+#pragma mark - XMPP相关方法
+//判断用户信息是否齐全
+-(BOOL)allInformationReady
+{
+   // NSUserDefaults * userDef = [NSUserDefaults standardUserDefaults];
+    //[userDef objectForKey:@"loginName"]
+    //[userDef objectForKey:@"userPasd"]
+    NSString * userName = @"lyh";
+    NSString * userPasd = @"lyh";
+    NSString * myName = [[NSString alloc]initWithFormat:@"%@",userName];
+    NSString *myPasd = [[NSString alloc]initWithFormat:@"%@",userPasd];
+    NSString *myPort =[[NSString alloc]initWithFormat:@"%@",XMPPPORT];
+    NSString *myHost = [[NSString alloc]initWithFormat:@"%@",XMPPHOST];
+    NSLog(@"host is %@ pasd is %@ port is %@ name is %@",myHost,myPasd,myPort,myName);
+    if (myHost&&myPasd&&myPort&&myName)
+    {
+        [[[[self appDelegate] mXmppClass] xmppStream] setHostName:myHost];
+        [[[[self appDelegate] mXmppClass] xmppStream] setHostPort:[myPort integerValue]];
+        [[NSUserDefaults standardUserDefaults]setObject:myHost forKey:kHost];
+        [[NSUserDefaults standardUserDefaults]setObject:[NSString stringWithFormat:@"%@@%@/Smack",myName,@"taxiservier2"] forKey:kMyJID];
+        [[NSUserDefaults standardUserDefaults]setObject:myPasd forKey:kPS];
+        return YES;
+    }
+    return NO;
+}
+//如果连接XMPP失败,那么就接着连接直到练级成功
+-(void)connectOpenFireAgain:(LYHAppDelegate *)appD
+{
+    [self connectToOpenFire];
+}
+//连接XMPP
+-(void)connectToOpenFire
+{
+    NSLog(@"连接到OpenFire");
+    if (![self allInformationReady])
+    {
+        return;
+    }
+    [[[self appDelegate]mXmppClass] myConnect];
+}
+- (LYHAppDelegate *)appDelegate
+{
+    LYHAppDelegate *appDel =  (LYHAppDelegate *)[[UIApplication sharedApplication] delegate];
+	return appDel;
+}
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self.mNameText resignFirstResponder];
