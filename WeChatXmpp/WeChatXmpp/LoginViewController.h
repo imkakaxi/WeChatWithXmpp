@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LoginViewController : UIViewController
+
 @property (retain,nonatomic) UILabel * mNameLabel;
 @property (retain,nonatomic) UILabel * mPasdLabel;
 

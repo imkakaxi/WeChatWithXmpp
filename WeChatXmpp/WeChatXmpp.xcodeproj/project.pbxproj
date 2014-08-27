@@ -210,6 +210,9 @@
 		CB050894199DE8870010E549 /* tabbar_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050883199DE8870010E549 /* tabbar_me@2x.png */; };
 		CB050896199DE8870010E549 /* tabbar_meHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB050885199DE8870010E549 /* tabbar_meHL@2x.png */; };
 		CB05089B199DE9340010E549 /* LYHBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB05089A199DE9340010E549 /* LYHBarButtonItem.m */; };
+		CB2BEA3B19AB0E3E004C1470 /* NSString+JSONDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BEA3A19AB0E3E004C1470 /* NSString+JSONDictionary.m */; };
+		CB2BEA3F19AB10CE004C1470 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BEA3E19AB10CE004C1470 /* iToast.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB2BEA4219AB1138004C1470 /* XmppClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BEA4119AB1138004C1470 /* XmppClass.m */; };
 		CB578D6B19A1A4A7000DBE12 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB578D6A19A1A4A7000DBE12 /* LoginViewController.m */; };
 		CB578D6E19A1A4BC000DBE12 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB578D6D19A1A4BC000DBE12 /* RegisterViewController.m */; };
 		CB578D7019A1A9DA000DBE12 /* Welcome_Login_LogoCH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB578D6F19A1A9DA000DBE12 /* Welcome_Login_LogoCH@2x.png */; };
@@ -585,6 +588,12 @@
 		CB050885199DE8870010E549 /* tabbar_meHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_meHL@2x.png"; sourceTree = "<group>"; };
 		CB050899199DE9340010E549 /* LYHBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHBarButtonItem.h; sourceTree = "<group>"; };
 		CB05089A199DE9340010E549 /* LYHBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHBarButtonItem.m; sourceTree = "<group>"; };
+		CB2BEA3919AB0E3E004C1470 /* NSString+JSONDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONDictionary.h"; sourceTree = "<group>"; };
+		CB2BEA3A19AB0E3E004C1470 /* NSString+JSONDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONDictionary.m"; sourceTree = "<group>"; };
+		CB2BEA3D19AB10CE004C1470 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		CB2BEA3E19AB10CE004C1470 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		CB2BEA4019AB1138004C1470 /* XmppClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmppClass.h; sourceTree = "<group>"; };
+		CB2BEA4119AB1138004C1470 /* XmppClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmppClass.m; sourceTree = "<group>"; };
 		CB578D6919A1A4A7000DBE12 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		CB578D6A19A1A4A7000DBE12 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CB578D6C19A1A4BC000DBE12 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -803,6 +812,8 @@
 		CB0505FC199DB4100010E549 /* 自定义类 */ = {
 			isa = PBXGroup;
 			children = (
+				CB2BEA3819AB0E21004C1470 /* NSString+JSONDictionary */,
+				CB2BEA3019AB0C90004C1470 /* XmppClass */,
 				CB050898199DE9190010E549 /* LYHBarButtonItem */,
 				CB0505FD199DB4220010E549 /* LYHNavigationController */,
 			);
@@ -821,6 +832,7 @@
 		CB050601199DD7950010E549 /* 第三方库 */ = {
 			isa = PBXGroup;
 			children = (
+				CB2BEA3C19AB10CE004C1470 /* iToast */,
 				CB050825199DDB690010E549 /* amr_wav */,
 				CB050801199DD7EF0010E549 /* Base64 */,
 				CB050602199DD7E20010E549 /* XMPP */,
@@ -1662,6 +1674,33 @@
 			name = LYHBarButtonItem;
 			sourceTree = "<group>";
 		};
+		CB2BEA3019AB0C90004C1470 /* XmppClass */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BEA4019AB1138004C1470 /* XmppClass.h */,
+				CB2BEA4119AB1138004C1470 /* XmppClass.m */,
+			);
+			name = XmppClass;
+			sourceTree = "<group>";
+		};
+		CB2BEA3819AB0E21004C1470 /* NSString+JSONDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BEA3919AB0E3E004C1470 /* NSString+JSONDictionary.h */,
+				CB2BEA3A19AB0E3E004C1470 /* NSString+JSONDictionary.m */,
+			);
+			name = "NSString+JSONDictionary";
+			sourceTree = "<group>";
+		};
+		CB2BEA3C19AB10CE004C1470 /* iToast */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BEA3D19AB10CE004C1470 /* iToast.h */,
+				CB2BEA3E19AB10CE004C1470 /* iToast.m */,
+			);
+			path = iToast;
+			sourceTree = "<group>";
+		};
 		CB578D6819A1A471000DBE12 /* 登录注册视图控制器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1823,6 +1862,7 @@
 				CB050777199DD7E20010E549 /* XMPPvCard.xcdatamodeld in Sources */,
 				CB0507AB199DD7E20010E549 /* LibIDN.m in Sources */,
 				CB050790199DD7E20010E549 /* XMPPCapabilitiesCoreDataStorage.m in Sources */,
+				CB2BEA4219AB1138004C1470 /* XmppClass.m in Sources */,
 				CB05086D199DE5150010E549 /* FriendListViewController.m in Sources */,
 				CB050750199DD7E20010E549 /* XMPPModule.m in Sources */,
 				CB0507AD199DD7E20010E549 /* XMPPIDTracker.m in Sources */,
@@ -1871,6 +1911,7 @@
 				CB050807199DD7EF0010E549 /* NSString+Base64.m in Sources */,
 				CB0507B9199DD7E20010E549 /* DDXMLDocument.m in Sources */,
 				CB0507A4199DD7E20010E549 /* XMPPAttentionModule.m in Sources */,
+				CB2BEA3F19AB10CE004C1470 /* iToast.m in Sources */,
 				CB050774199DD7E20010E549 /* XMPPMessage+XEP0045.m in Sources */,
 				CB050788199DD7E20010E549 /* TURNSocket.m in Sources */,
 				CB050758199DD7E20010E549 /* XMPPReconnect.m in Sources */,
@@ -1951,6 +1992,7 @@
 				CB05075A199DD7E20010E549 /* XMPPResourceCoreDataStorageObject.m in Sources */,
 				CB05076F199DD7E20010E549 /* XMPPRoomMessageHybridCoreDataStorageObject.m in Sources */,
 				CB050752199DD7E20010E549 /* XMPPPresence.m in Sources */,
+				CB2BEA3B19AB0E3E004C1470 /* NSString+JSONDictionary.m in Sources */,
 				CB050771199DD7E20010E549 /* XMPPRoomMemoryStorage.m in Sources */,
 				CB050784199DD7E20010E549 /* NSXMLElement+XEP_0059.m in Sources */,
 				CB0507A7199DD7E20010E549 /* XMPPMessage+XEP_0308.m in Sources */,

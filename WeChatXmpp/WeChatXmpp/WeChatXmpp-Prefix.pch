@@ -13,4 +13,23 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    //#import "iToast.h"
+    #import "NSString+JSONDictionary.h"
+#endif
+#define kHost  @"host"
+#define kMyJID  @"myjid"
+#define kPS  @"password"
+
+
+#ifndef XMPPHOST
+#define XMPPHOST @"211.101.37.250"
+#endif
+/*
+ hdsx@127.0.0.1
+ */
+/**
+ 预定义通信服务端口号
+ */
+#ifndef XMPPPORT
+#define XMPPPORT @"5222"
 #endif

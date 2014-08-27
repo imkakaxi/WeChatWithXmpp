@@ -13,6 +13,7 @@
 @end
 
 @implementation LoginViewController
+
 @synthesize mNameLabel,mNameText,mPasdLabel,mPasdText;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -63,6 +64,17 @@
     pasdText.placeholder = @"请输入密码";
     self.mPasdText = pasdText;
     [self.view addSubview:self.mPasdText];
+    /*
+     如果码错误添加抖动动画提示错误
+     */
+    CAKeyframeAnimation * animation = [CAKeyframeAnimation animation];
+    animation.keyPath = @"position.x";
+    animation.values = @[@0,@10,@-10,@10,@0];
+    animation.keyTimes = @[@0,@(1/6.0),@(3/6.0),@(5/6.0),@1];
+    animation.duration  = 0.4;
+    animation.additive = YES;
+    [self.mPasdText.layer addAnimation:animation forKey:@"shake"];
+    
     
     UIButton * btnLogin = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     btnLogin.frame =CGRectMake(100, 360, 120, 40);
@@ -70,7 +82,6 @@
     btnLogin.backgroundColor = [UIColor greenColor];
     //[btnLogin setBackgroundImage:[UIImage imageNamed:@"LoginGreenBigBtn"] forState:UIControlStateNormal];
     [btnLogin addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
-
     [self.view addSubview:btnLogin];
 }
 
