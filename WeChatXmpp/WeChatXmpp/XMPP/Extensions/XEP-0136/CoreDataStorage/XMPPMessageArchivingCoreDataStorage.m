@@ -32,12 +32,12 @@
 
 static XMPPMessageArchivingCoreDataStorage *sharedInstance;
 
-+ (XMPPMessageArchivingCoreDataStorage *)sharedInstance
++ (instancetype)sharedInstance
 {
 	static dispatch_once_t onceToken;
 	dispatch_once(&onceToken, ^{
 		
-		sharedInstance = [[XMPPMessageArchivingCoreDataStorage alloc] initWithDatabaseFilename:nil];
+		sharedInstance = [[XMPPMessageArchivingCoreDataStorage alloc] initWithDatabaseFilename:nil storeOptions:nil];
 	});
 	
 	return sharedInstance;
@@ -179,7 +179,7 @@ static XMPPMessageArchivingCoreDataStorage *sharedInstance;
 	NSError *error = nil;
 	NSArray *results = [moc executeFetchRequest:fetchRequest error:&error];
 	
-	if (results == nil)
+	if (results == nil || error)
 	{
 		XMPPLogError(@"%@: %@ - Error executing fetchRequest: %@", THIS_FILE, THIS_METHOD, fetchRequest);
 	}
@@ -343,7 +343,7 @@ static XMPPMessageArchivingCoreDataStorage *sharedInstance;
 		// Message doesn't have a body.
 		// Check to see if it has a chat state (composing, paused, etc).
 		
-		isComposing = [message isComposingChatState];
+		isComposing = [message hasComposingChatState];
 		if (!isComposing)
 		{
 			if ([message hasChatState])

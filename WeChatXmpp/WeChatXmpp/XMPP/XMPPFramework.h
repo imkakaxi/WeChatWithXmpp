@@ -23,11 +23,9 @@
 
 
 #import "XMPP.h"
-//#import "XMPPMessageArchiving.h"
-#import "XMPPMessageArchivingCoreDataStorage.h"
 
 // List the modules you're using here.
-
+#import "XMPPMessageArchivingCoreDataStorage.h"
 #import "XMPPReconnect.h"
 
 #import "XMPPRoster.h"

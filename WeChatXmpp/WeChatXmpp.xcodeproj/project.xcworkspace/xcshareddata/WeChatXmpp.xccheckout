@@ -10,29 +10,29 @@
 	<string>WeChatXmpp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>DF8EBFAA-3EF0-4E25-825B-14CEED42FB7F</key>
+		<key>0E59229B28F2EAD2861C6F6306D51CE6EBC97375</key>
 		<string>https://github.com/TheBlackApple/WeChatWithXmpp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WeChatXmpp/WeChatXmpp.xcodeproj/project.xcworkspace</string>
+	<string>WeChatXmpp/WeChatXmpp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>DF8EBFAA-3EF0-4E25-825B-14CEED42FB7F</key>
+		<key>0E59229B28F2EAD2861C6F6306D51CE6EBC97375</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/TheBlackApple/WeChatWithXmpp.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DF8EBFAA-3EF0-4E25-825B-14CEED42FB7F</string>
+	<string>0E59229B28F2EAD2861C6F6306D51CE6EBC97375</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DF8EBFAA-3EF0-4E25-825B-14CEED42FB7F</string>
+			<string>0E59229B28F2EAD2861C6F6306D51CE6EBC97375</string>
 			<key>IDESourceControlWCCName</key>
 			<string>WeChatWithXmpp</string>
 		</dict>

@@ -236,12 +236,10 @@
 
 - (NSDate *)parseDateString: (NSString *)dateString withFormat: (NSString *)format {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    NSDate *result = nil;
-    
+    [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
     [dateFormatter setDateFormat: format];
     
-    result = [dateFormatter dateFromString: dateString];
-    
+    NSDate *result = [dateFormatter dateFromString: dateString];
     
     return result;
 }
@@ -283,7 +281,7 @@
 - (NSData *)parseData: (NSString *)value {
 	// Convert the base 64 encoded data into a string
 	NSData *base64Data = [value dataUsingEncoding:NSASCIIStringEncoding];
-	NSData *decodedData = [base64Data base64Decoded];
+	NSData *decodedData = [base64Data xmpp_base64Decoded];
 	
     return decodedData;
 }

@@ -103,8 +103,8 @@
    // NSUserDefaults * userDef = [NSUserDefaults standardUserDefaults];
     //[userDef objectForKey:@"loginName"]
     //[userDef objectForKey:@"userPasd"]
-    NSString * userName = @"lyh";
-    NSString * userPasd = @"lyh";
+    NSString * userName = @"hdsx";
+    NSString * userPasd = @"123";
     NSString * myName = [[NSString alloc]initWithFormat:@"%@",userName];
     NSString *myPasd = [[NSString alloc]initWithFormat:@"%@",userPasd];
     NSString *myPort =[[NSString alloc]initWithFormat:@"%@",XMPPPORT];
