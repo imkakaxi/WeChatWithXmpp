@@ -100,11 +100,9 @@
 //判断用户信息是否齐全
 -(BOOL)allInformationReady
 {
-   // NSUserDefaults * userDef = [NSUserDefaults standardUserDefaults];
-    //[userDef objectForKey:@"loginName"]
-    //[userDef objectForKey:@"userPasd"]
-    NSString * userName = @"hdsx";
-    NSString * userPasd = @"123";
+   
+    NSString * userName = self.mNameText.text;
+    NSString * userPasd = self.mPasdText.text;
     NSString * myName = [[NSString alloc]initWithFormat:@"%@",userName];
     NSString *myPasd = [[NSString alloc]initWithFormat:@"%@",userPasd];
     NSString *myPort =[[NSString alloc]initWithFormat:@"%@",XMPPPORT];
