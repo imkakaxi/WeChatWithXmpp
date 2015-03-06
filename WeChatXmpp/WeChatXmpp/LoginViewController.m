@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "LYHAppDelegate.h"
+#import "NSString+Hashing.h"
 @interface LoginViewController ()
 
 @end
@@ -102,7 +103,9 @@
 {
    
     NSString * userName = self.mNameText.text;
-    NSString * userPasd = self.mPasdText.text;
+    NSString * userPasd = [self.mPasdText.text MD5Hash];
+    //95128.mytaxi.cn
+    //5222
     NSString * myName = [[NSString alloc]initWithFormat:@"%@",userName];
     NSString *myPasd = [[NSString alloc]initWithFormat:@"%@",userPasd];
     NSString *myPort =[[NSString alloc]initWithFormat:@"%@",XMPPPORT];
@@ -115,6 +118,7 @@
         [[NSUserDefaults standardUserDefaults]setObject:myHost forKey:kHost];
         [[NSUserDefaults standardUserDefaults]setObject:[NSString stringWithFormat:@"%@@%@/Smack",myName,@"taxiservier2"] forKey:kMyJID];
         [[NSUserDefaults standardUserDefaults]setObject:myPasd forKey:kPS];
+        [[NSUserDefaults standardUserDefaults]synchronize];
         return YES;
     }
     return NO;

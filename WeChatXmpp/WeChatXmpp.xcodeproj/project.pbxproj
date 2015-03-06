@@ -190,6 +190,8 @@
 		B332218C1AA80215002EA643 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B33221601AA80215002EA643 /* UIWebView+AFNetworking.m */; };
 		B332218D1AA80215002EA643 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B33221631AA80215002EA643 /* libmp3lame.a */; };
 		B332218E1AA80215002EA643 /* Mp3Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B33221651AA80215002EA643 /* Mp3Recorder.m */; };
+		B33221911AA8030B002EA643 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33221901AA8030B002EA643 /* ChatViewController.m */; };
+		B3D733E91AA9506900536664 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D733E81AA9506900536664 /* NSString+Hashing.m */; };
 		CB050597199D9C0C0010E549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB050596199D9C0C0010E549 /* Foundation.framework */; };
 		CB050599199D9C0C0010E549 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB050598199D9C0C0010E549 /* CoreGraphics.framework */; };
 		CB05059B199D9C0C0010E549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB05059A199D9C0C0010E549 /* UIKit.framework */; };
@@ -637,6 +639,10 @@
 		B33221631AA80215002EA643 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 		B33221641AA80215002EA643 /* Mp3Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Recorder.h; sourceTree = "<group>"; };
 		B33221651AA80215002EA643 /* Mp3Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Recorder.m; sourceTree = "<group>"; };
+		B332218F1AA8030B002EA643 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		B33221901AA8030B002EA643 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		B3D733E71AA9506900536664 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		B3D733E81AA9506900536664 /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
 		CB050593199D9C0C0010E549 /* WeChatXmpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatXmpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB050596199D9C0C0010E549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB050598199D9C0C0010E549 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1746,6 +1752,15 @@
 			path = VoiceLib;
 			sourceTree = "<group>";
 		};
+		B3D733E61AA9506900536664 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				B3D733E71AA9506900536664 /* NSString+Hashing.h */,
+				B3D733E81AA9506900536664 /* NSString+Hashing.m */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
 		CB05058A199D9C0C0010E549 = {
 			isa = PBXGroup;
 			children = (
@@ -1794,6 +1809,8 @@
 				CB0505A6199D9C0C0010E549 /* LYHAppDelegate.m */,
 				CB0505C5199D9C900010E549 /* LYHRootViewController.h */,
 				CB0505C6199D9C900010E549 /* LYHRootViewController.m */,
+				B332218F1AA8030B002EA643 /* ChatViewController.h */,
+				B33221901AA8030B002EA643 /* ChatViewController.m */,
 				CB578D6819A1A471000DBE12 /* 登录注册视图控制器 */,
 				CB0505FB199DB3EE0010E549 /* 我视图控制器 */,
 				CB0505FA199DB3E20010E549 /* 发现视图控制器 */,
@@ -1938,6 +1955,7 @@
 		CB050601199DD7950010E549 /* 第三方库 */ = {
 			isa = PBXGroup;
 			children = (
+				B3D733E61AA9506900536664 /* Hash */,
 				B332211B1AA801FE002EA643 /* OtherResources */,
 				B3321F1A1AA7FF4A002EA643 /* XMPP */,
 				CB2BEA3C19AB10CE004C1470 /* iToast */,
@@ -2208,6 +2226,7 @@
 				CB578D6B19A1A4A7000DBE12 /* LoginViewController.m in Sources */,
 				B33220E81AA7FF4A002EA643 /* XMPPMessageArchiving.xcdatamodeld in Sources */,
 				B33220C51AA7FF4A002EA643 /* XMPPMessage+XEP0045.m in Sources */,
+				B3D733E91AA9506900536664 /* NSString+Hashing.m in Sources */,
 				B33220E11AA7FF4A002EA643 /* XMPPTransports.m in Sources */,
 				B33221671AA80215002EA643 /* AFHTTPRequestOperationManager.m in Sources */,
 				B33220B01AA7FF4A002EA643 /* XMPPRosterMemoryStorage.m in Sources */,
@@ -2303,6 +2322,7 @@
 				B33220B71AA7FF4A002EA643 /* XMPPIQ+LastActivity.m in Sources */,
 				B33220CB1AA7FF4A002EA643 /* XMPPvCardCoreDataStorageObject.m in Sources */,
 				B33220ED1AA7FF4A002EA643 /* XMPPvCardAvatarModule.m in Sources */,
+				B33221911AA8030B002EA643 /* ChatViewController.m in Sources */,
 				B33220CC1AA7FF4A002EA643 /* XMPPvCardTempCoreDataStorageObject.m in Sources */,
 				B33220F11AA7FF4A002EA643 /* XMPPMessageDeliveryReceipts.m in Sources */,
 				B33220C31AA7FF4A002EA643 /* XMPPRoomMessageMemoryStorageObject.m in Sources */,

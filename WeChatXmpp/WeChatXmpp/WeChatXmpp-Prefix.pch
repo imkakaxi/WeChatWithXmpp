@@ -19,10 +19,10 @@
 #define kHost  @"host"
 #define kMyJID  @"myjid"
 #define kPS  @"password"
-
+//211.101.37.250
 
 #ifndef XMPPHOST
-#define XMPPHOST @"211.101.37.250"
+#define XMPPHOST @"95128.mytaxi.cn"
 #endif
 /*
  hdsx@127.0.0.1

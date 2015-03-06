@@ -105,7 +105,6 @@ Class object_getClass(id object);
 #pragma mark - XMPP已经连接
 - (void)xmppStreamDidConnect:(XMPPStream *)sender
 {
-    NSLog(@"xmppStreamDidConnect");
     if ([[NSUserDefaults standardUserDefaults]objectForKey:kPS])
     {
         NSError *error ;
@@ -144,7 +143,7 @@ Class object_getClass(id object);
 - (void)xmppStream:(XMPPStream *)sender didNotAuthenticate:(NSXMLElement *)error
 {
    // [[iToast makeText:@"连接中"]show];
-    [self.mDelegate connectOpenFireAgain:self];
+//    [self.mDelegate connectOpenFireAgain:self];
     NSLog(@"didNotAuthenticate:%@",error.description);
 }
 #pragma mark - 交换冲突资源
@@ -216,7 +215,6 @@ Class object_getClass(id object);
     NSString *msgid = [dict objectForKey:@"msgid"];
     NSLog(@"msgid is %@",msgid);
 
-    
     if([msgid intValue] == 1)//订单抢单成功
     {
         NSDictionary * resultDict = [dict objectForKey:@"result"];
