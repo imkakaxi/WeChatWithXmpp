@@ -7,9 +7,14 @@
 //
 
 #import "ChatViewController.h"
+#import "MJRefresh.h"
+#import "ChatModel.h"
 
 @interface ChatViewController ()<UITableViewDataSource,UITableViewDelegate>
 
+
+@property (strong,nonatomic) MJRefreshHeaderView * head;
+@property (strong,nonatomic) ChatModel * chatModel;
 @property (retain,nonatomic) UITableView * mTableView;
 @end
 
@@ -18,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.mTableView = [[UITableView alloc]initWithFrame:self.view.bounds];
+    self.mTableView.delegate = self;
     [self.view addSubview:self.mTableView];
     [self initBar];
     [self addRefreshView];
@@ -25,7 +31,14 @@
 
 - (void)addRefreshView
 {
+    __weak typeof(self) weakSelf = self;
+    int pageNum = 3;
+    _head = [MJRefreshHeaderView header];
     
+    _head.scrollView = self.mTableView;
+    _head.beginRefreshingBlock = ^(MJRefreshBaseView *refreshView){
+//        [weakSelf.chatModel ];
+    } ;
 }
 - (void)initBar
 {
