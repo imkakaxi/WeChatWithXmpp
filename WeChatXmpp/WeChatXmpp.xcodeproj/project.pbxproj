@@ -191,7 +191,15 @@
 		B332218D1AA80215002EA643 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B33221631AA80215002EA643 /* libmp3lame.a */; };
 		B332218E1AA80215002EA643 /* Mp3Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B33221651AA80215002EA643 /* Mp3Recorder.m */; };
 		B33221911AA8030B002EA643 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33221901AA8030B002EA643 /* ChatViewController.m */; };
+		B38FE0FF1AAECF6F00E051EC /* CLImageAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B38FE0FE1AAECF6F00E051EC /* CLImageAvatarBrowser.m */; };
+		B38FE1021AAECFAA00E051EC /* CLAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B38FE1011AAECFAA00E051EC /* CLAVAudioPlayer.m */; };
 		B3D733E91AA9506900536664 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D733E81AA9506900536664 /* NSString+Hashing.m */; };
+		B3E18A5E1AAD686700DB72EF /* CLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E18A5D1AAD686700DB72EF /* CLMessage.m */; };
+		B3E18A611AAD689A00DB72EF /* CLMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E18A601AAD689A00DB72EF /* CLMessageFrame.m */; };
+		B3E18A641AAD68AF00DB72EF /* CLMessageCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E18A631AAD68AF00DB72EF /* CLMessageCellTableViewCell.m */; };
+		B3E18A671AAD68CF00DB72EF /* CLInputFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E18A661AAD68CF00DB72EF /* CLInputFunctionView.m */; };
+		B3E18A6A1AAD68FB00DB72EF /* CLMessageContentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E18A691AAD68FB00DB72EF /* CLMessageContentButton.m */; };
+		B3FF530C1AA9929500040AF9 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FF530B1AA9929500040AF9 /* ChatModel.m */; };
 		CB050597199D9C0C0010E549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB050596199D9C0C0010E549 /* Foundation.framework */; };
 		CB050599199D9C0C0010E549 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB050598199D9C0C0010E549 /* CoreGraphics.framework */; };
 		CB05059B199D9C0C0010E549 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB05059A199D9C0C0010E549 /* UIKit.framework */; };
@@ -641,8 +649,24 @@
 		B33221651AA80215002EA643 /* Mp3Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Recorder.m; sourceTree = "<group>"; };
 		B332218F1AA8030B002EA643 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		B33221901AA8030B002EA643 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		B38FE0FD1AAECF6F00E051EC /* CLImageAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLImageAvatarBrowser.h; sourceTree = "<group>"; };
+		B38FE0FE1AAECF6F00E051EC /* CLImageAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLImageAvatarBrowser.m; sourceTree = "<group>"; };
+		B38FE1001AAECFAA00E051EC /* CLAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAVAudioPlayer.h; sourceTree = "<group>"; };
+		B38FE1011AAECFAA00E051EC /* CLAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAVAudioPlayer.m; sourceTree = "<group>"; };
 		B3D733E71AA9506900536664 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
 		B3D733E81AA9506900536664 /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		B3E18A5C1AAD686700DB72EF /* CLMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMessage.h; sourceTree = "<group>"; };
+		B3E18A5D1AAD686700DB72EF /* CLMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMessage.m; sourceTree = "<group>"; };
+		B3E18A5F1AAD689A00DB72EF /* CLMessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMessageFrame.h; sourceTree = "<group>"; };
+		B3E18A601AAD689A00DB72EF /* CLMessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMessageFrame.m; sourceTree = "<group>"; };
+		B3E18A621AAD68AF00DB72EF /* CLMessageCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMessageCellTableViewCell.h; sourceTree = "<group>"; };
+		B3E18A631AAD68AF00DB72EF /* CLMessageCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMessageCellTableViewCell.m; sourceTree = "<group>"; };
+		B3E18A651AAD68CF00DB72EF /* CLInputFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLInputFunctionView.h; sourceTree = "<group>"; };
+		B3E18A661AAD68CF00DB72EF /* CLInputFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLInputFunctionView.m; sourceTree = "<group>"; };
+		B3E18A681AAD68FB00DB72EF /* CLMessageContentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMessageContentButton.h; sourceTree = "<group>"; };
+		B3E18A691AAD68FB00DB72EF /* CLMessageContentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMessageContentButton.m; sourceTree = "<group>"; };
+		B3FF530A1AA9929500040AF9 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		B3FF530B1AA9929500040AF9 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
 		CB050593199D9C0C0010E549 /* WeChatXmpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatXmpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB050596199D9C0C0010E549 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB050598199D9C0C0010E549 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1761,6 +1785,36 @@
 			path = Hash;
 			sourceTree = "<group>";
 		};
+		B3E18A5B1AAD684500DB72EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3E18A5C1AAD686700DB72EF /* CLMessage.h */,
+				B3E18A5D1AAD686700DB72EF /* CLMessage.m */,
+				B3E18A5F1AAD689A00DB72EF /* CLMessageFrame.h */,
+				B3E18A601AAD689A00DB72EF /* CLMessageFrame.m */,
+				B3E18A621AAD68AF00DB72EF /* CLMessageCellTableViewCell.h */,
+				B3E18A631AAD68AF00DB72EF /* CLMessageCellTableViewCell.m */,
+				B3E18A651AAD68CF00DB72EF /* CLInputFunctionView.h */,
+				B3E18A661AAD68CF00DB72EF /* CLInputFunctionView.m */,
+				B3E18A681AAD68FB00DB72EF /* CLMessageContentButton.h */,
+				B3E18A691AAD68FB00DB72EF /* CLMessageContentButton.m */,
+				B38FE0FD1AAECF6F00E051EC /* CLImageAvatarBrowser.h */,
+				B38FE0FE1AAECF6F00E051EC /* CLImageAvatarBrowser.m */,
+				B38FE1001AAECFAA00E051EC /* CLAVAudioPlayer.h */,
+				B38FE1011AAECFAA00E051EC /* CLAVAudioPlayer.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B3FF53091AA9928500040AF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3FF530A1AA9929500040AF9 /* ChatModel.h */,
+				B3FF530B1AA9929500040AF9 /* ChatModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		CB05058A199D9C0C0010E549 = {
 			isa = PBXGroup;
 			children = (
@@ -1803,6 +1857,8 @@
 		CB05059C199D9C0C0010E549 /* WeChatXmpp */ = {
 			isa = PBXGroup;
 			children = (
+				B3E18A5B1AAD684500DB72EF /* Classes */,
+				B3FF53091AA9928500040AF9 /* Models */,
 				CB050601199DD7950010E549 /* 第三方库 */,
 				CB0505FC199DB4100010E549 /* 自定义类 */,
 				CB0505A5199D9C0C0010E549 /* LYHAppDelegate.h */,
@@ -2181,6 +2237,7 @@
 				B33220F41AA7FF4A002EA643 /* XMPPStreamManagementStanzas.m in Sources */,
 				B33220AA1AA7FF4A002EA643 /* XMPPGroupCoreDataStorageObject.m in Sources */,
 				B33220D11AA7FF4A002EA643 /* XMPPvCardTempEmail.m in Sources */,
+				B3E18A671AAD68CF00DB72EF /* CLInputFunctionView.m in Sources */,
 				B33220D51AA7FF4A002EA643 /* NSXMLElement+XEP_0059.m in Sources */,
 				B33221161AA7FF4A002EA643 /* DDXMLDocument.m in Sources */,
 				CB05086D199DE5150010E549 /* FriendListViewController.m in Sources */,
@@ -2192,6 +2249,7 @@
 				B33220F71AA7FF4A002EA643 /* XMPPPing.m in Sources */,
 				B33220FC1AA7FF4A002EA643 /* XMPPAttentionModule.m in Sources */,
 				B33220BC1AA7FF4A002EA643 /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
+				B3E18A5E1AAD686700DB72EF /* CLMessage.m in Sources */,
 				B33220E91AA7FF4A002EA643 /* XMPPMessageArchiving_Contact_CoreDataObject.m in Sources */,
 				B33220D21AA7FF4A002EA643 /* XMPPvCardTempLabel.m in Sources */,
 				B33220BF1AA7FF4A002EA643 /* XMPPRoomHybridStorage.m in Sources */,
@@ -2200,12 +2258,14 @@
 				B33220C41AA7FF4A002EA643 /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
 				B33220AE1AA7FF4A002EA643 /* XMPPUserCoreDataStorageObject.m in Sources */,
 				B33220D31AA7FF4A002EA643 /* XMPPvCardTempModule.m in Sources */,
+				B3E18A611AAD689A00DB72EF /* CLMessageFrame.m in Sources */,
 				CB050600199DB4410010E549 /* LYHNavigationController.m in Sources */,
 				B33220A71AA7FF4A002EA643 /* XMPPGoogleSharedStatus.m in Sources */,
 				B33220A61AA7FF4A002EA643 /* XMPPOutgoingFileTransfer.m in Sources */,
 				B33220C21AA7FF4A002EA643 /* XMPPRoomMemoryStorage.m in Sources */,
 				B33220A11AA7FF4A002EA643 /* XMPPStream.m in Sources */,
 				B33220A81AA7FF4A002EA643 /* XMPPProcessOne.m in Sources */,
+				B38FE0FF1AAECF6F00E051EC /* CLImageAvatarBrowser.m in Sources */,
 				B33220FB1AA7FF4A002EA643 /* XEP_0223.m in Sources */,
 				B33220F51AA7FF4A002EA643 /* XMPPStreamManagement.m in Sources */,
 				B33220FE1AA7FF4A002EA643 /* XMPPMessage+XEP_0280.m in Sources */,
@@ -2248,6 +2308,7 @@
 				B33220B91AA7FF4A002EA643 /* XMPPPrivacy.m in Sources */,
 				B33220BB1AA7FF4A002EA643 /* XMPPRoomCoreDataStorage.m in Sources */,
 				B332209C1AA7FF4A002EA643 /* XMPPJID.m in Sources */,
+				B3E18A6A1AAD68FB00DB72EF /* CLMessageContentButton.m in Sources */,
 				B33220D81AA7FF4A002EA643 /* XMPPPubSub.m in Sources */,
 				B33220E31AA7FF4A002EA643 /* XMPPCapabilities.xcdatamodel in Sources */,
 				B33220CA1AA7FF4A002EA643 /* XMPPvCardCoreDataStorage.m in Sources */,
@@ -2304,10 +2365,12 @@
 				B33221881AA80215002EA643 /* UIButton+AFNetworking.m in Sources */,
 				CB050870199DE5390010E549 /* DiscoverViewController.m in Sources */,
 				B332210C1AA7FF4A002EA643 /* DDAbstractDatabaseLogger.m in Sources */,
+				B38FE1021AAECFAA00E051EC /* CLAVAudioPlayer.m in Sources */,
 				B33220DA1AA7FF4A002EA643 /* XMPPIQ+XEP_0066.m in Sources */,
 				B33220C61AA7FF4A002EA643 /* XMPPMUC.m in Sources */,
 				B33220C11AA7FF4A002EA643 /* XMPPRoomOccupantHybridMemoryStorageObject.m in Sources */,
 				B33221891AA80215002EA643 /* UIImageView+AFNetworking.m in Sources */,
+				B3E18A641AAD68AF00DB72EF /* CLMessageCellTableViewCell.m in Sources */,
 				B33221051AA7FF4A002EA643 /* GCDMulticastDelegate.m in Sources */,
 				B33220E61AA7FF4A002EA643 /* XMPPCapsResourceCoreDataStorageObject.m in Sources */,
 				B33221131AA7FF4A002EA643 /* DDMultiFormatter.m in Sources */,
@@ -2318,6 +2381,7 @@
 				B33220E01AA7FF4A002EA643 /* XMPPSoftwareVersion.m in Sources */,
 				B33221851AA80215002EA643 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				B332218A1AA80215002EA643 /* UIProgressView+AFNetworking.m in Sources */,
+				B3FF530C1AA9929500040AF9 /* ChatModel.m in Sources */,
 				B33221041AA7FF4A002EA643 /* DDList.m in Sources */,
 				B33220B71AA7FF4A002EA643 /* XMPPIQ+LastActivity.m in Sources */,
 				B33220CB1AA7FF4A002EA643 /* XMPPvCardCoreDataStorageObject.m in Sources */,
