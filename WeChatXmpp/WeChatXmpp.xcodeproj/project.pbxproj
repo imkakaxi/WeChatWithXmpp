@@ -199,6 +199,7 @@
 		B3E18A641AAD68AF00DB72EF /* CLMessageCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E18A631AAD68AF00DB72EF /* CLMessageCellTableViewCell.m */; };
 		B3E18A671AAD68CF00DB72EF /* CLInputFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E18A661AAD68CF00DB72EF /* CLInputFunctionView.m */; };
 		B3E18A6A1AAD68FB00DB72EF /* CLMessageContentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E18A691AAD68FB00DB72EF /* CLMessageContentButton.m */; };
+		B3E3316D1AB0351D004ABA21 /* CLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E3316C1AB0351D004ABA21 /* CLProgressHUD.m */; };
 		B3FF530C1AA9929500040AF9 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FF530B1AA9929500040AF9 /* ChatModel.m */; };
 		CB050597199D9C0C0010E549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB050596199D9C0C0010E549 /* Foundation.framework */; };
 		CB050599199D9C0C0010E549 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB050598199D9C0C0010E549 /* CoreGraphics.framework */; };
@@ -665,6 +666,8 @@
 		B3E18A661AAD68CF00DB72EF /* CLInputFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLInputFunctionView.m; sourceTree = "<group>"; };
 		B3E18A681AAD68FB00DB72EF /* CLMessageContentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMessageContentButton.h; sourceTree = "<group>"; };
 		B3E18A691AAD68FB00DB72EF /* CLMessageContentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMessageContentButton.m; sourceTree = "<group>"; };
+		B3E3316B1AB0351D004ABA21 /* CLProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLProgressHUD.h; sourceTree = "<group>"; };
+		B3E3316C1AB0351D004ABA21 /* CLProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLProgressHUD.m; sourceTree = "<group>"; };
 		B3FF530A1AA9929500040AF9 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
 		B3FF530B1AA9929500040AF9 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
 		CB050593199D9C0C0010E549 /* WeChatXmpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatXmpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1802,6 +1805,8 @@
 				B38FE0FE1AAECF6F00E051EC /* CLImageAvatarBrowser.m */,
 				B38FE1001AAECFAA00E051EC /* CLAVAudioPlayer.h */,
 				B38FE1011AAECFAA00E051EC /* CLAVAudioPlayer.m */,
+				B3E3316B1AB0351D004ABA21 /* CLProgressHUD.h */,
+				B3E3316C1AB0351D004ABA21 /* CLProgressHUD.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2338,6 +2343,7 @@
 				B33221681AA80215002EA643 /* AFHTTPSessionManager.m in Sources */,
 				B33221181AA7FF4A002EA643 /* DDXMLNode.m in Sources */,
 				B33220CF1AA7FF4A002EA643 /* XMPPvCardTempAdrTypes.m in Sources */,
+				B3E3316D1AB0351D004ABA21 /* CLProgressHUD.m in Sources */,
 				B332210B1AA7FF4A002EA643 /* GCDAsyncSocket.m in Sources */,
 				B33220C91AA7FF4A002EA643 /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
 				B33220951AA7FF4A002EA643 /* NSData+XMPP.m in Sources */,
