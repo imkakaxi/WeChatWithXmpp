@@ -10,4 +10,12 @@
 
 @interface CLProgressHUD : UIView
 
+@property (strong,nonatomic) UILabel * titleLabel;
+@property (strong,nonatomic) UILabel * subTitleLabel;
++ (void)show;
+
++ (void)dismissWithSucess:(NSString *)str;
++ (void)dismissWithError:(NSString *)str;
++(void)changeSubTitle:(NSString *)str;
+
 @end
